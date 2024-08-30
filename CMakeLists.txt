@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.8.9)
+set(CMAKE_CXX_COMPILER aarch64-rpi3-linux-gnu-gcc)
+set(CMAKE_C_COMPILER aarch64-rpi3-linux-gnu-gcc)
+#set(CMAKE_C_STANDARD 99)
+#set(CMAKE_C_STANDARD_REQUIRED ON)
+#set(CMAKE_C_EXTENSIONS OFF)
+set(CMAKE_BUILD_TYPE Debug)
+project ("briefer")
+#set(CMAKE_C_COMPILER gcc)
+include_directories(src/)
+
+add_executable(briefer src/briefer.c src/briefer_lcd.c src/briefer_gpio.c)
+target_link_libraries(briefer "pthread")
