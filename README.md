@@ -1,9 +1,9 @@
 # ses_minproject_breifer
 
 ## TOOLCHAIN 
-x-tools-aarch64-rpi3-linux-gnu-gcc14.tar.xz
+> x-tools-aarch64-rpi3-linux-gnu-gcc14.tar.xz
 
-## Environment setup
+## ENVIRONMENT SETUP
 > untar in /opt/palanesami/
 > export PATH=$PATH:/opt/palanesami/x-tools/aarch64-rpi3-linux-gnu/bin
 
