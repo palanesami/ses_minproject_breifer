@@ -1,4 +1,4 @@
-# ses_minproject_breifer
+# ses_minproject_briefer
 
 ## Overview 
 > Briefer is the module intended to briefer the day activity or summary.
@@ -22,4 +22,4 @@
 > make
 
 ## EXECUTE IN RASPBERRY PI BOARD
-> ./briefer
+> ./briefer “BITS”
